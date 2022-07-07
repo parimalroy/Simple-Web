@@ -133,7 +133,7 @@ ul{
 }
 .about-left h4, .about-menu h4 {
 	text-transform: capitalize;
-	margin: 20px 0;
+	margin: 50px 0 30px 0;
 	font-size: 25px;
 	color: #333;
 }
@@ -187,4 +187,32 @@ font-size: 19px;
 	padding: 15px;
 	font-size: 15px;
 	color: #fff;
+}
+
+
+ /* =====================
+ about page style
+========================= */
+.page-banner {
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	position: relative;
+	z-index: 2;
+}
+.page-banner::before{
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+	background-color: #333;
+	opacity: 0.3;
+	z-index: -1;
+}
+.page-banner h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
 }
