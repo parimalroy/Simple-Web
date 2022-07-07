@@ -1,0 +1,190 @@
+/* Reset code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+img{
+    width: 100%;
+}
+.fix::before, .fix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn {
+	text-decoration: none;
+	color: #fff;
+	background: tomato;
+	padding: 10px 15px;
+	text-transform: capitalize;
+	display: inline-block;
+	margin: 10px;
+	font-size: 16px;
+	border-radius: 3px;
+	font-style:italic;
+	transition: .3s;
+}
+.btn:hover{
+	background-color: #ff7720;
+	font-size: 17px;
+}
+ul{
+	list-style: none;
+}
+.area {
+	width: 1000px;
+	margin: 0 auto;
+}
+/* header style */
+.header {
+	background-color: #ddd;
+	padding: 10px;
+}
+.logo {
+	width: 250px;
+	margin-right: 10px;
+    float: left;
+}
+.logo img{}
+.menu {
+	width: 700px;
+	float: left;
+}
+.menu ul {
+	text-align: right;
+	margin-top: 15px;
+}
+.menu ul li {
+	display: inline-block;
+	
+}
+.menu ul li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 22px;
+	padding: 10px 15px;
+	display: block;
+	color: #333;
+    transition: .3s;
+}
+
+.menu ul li a:hover{
+    background: tomato;
+    color: #fff;
+    border-radius: 3px;
+}
+
+/* banner section */
+.banner{}
+.banner img{}
+
+/* services style */
+.services{}
+.title{
+    margin: 25px;
+}
+.title h2 {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 40px;
+	color: #333;
+	margin: 50px 0;
+}
+.service{}
+.single-service {
+	width: 313px;
+	float: left;
+	margin-right: 30px;
+	background-color: teal;
+	margin-bottom: 20px;
+}
+.single-service:last-child{
+    margin-right: 0;
+}
+.single-service h4 {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 26px;
+	padding: 20px;
+	color: #fff;
+}
+.single-service img{}
+.single-service p {
+	text-align: justify;
+	padding: 10px;
+	color: #fff;
+	/* margin: 10px 0; */
+}
+.single-service a{}
+
+
+/* about style */
+.about{}
+.about-left {
+	float: left;
+	width: 657px;
+	margin-right: 10px;
+}
+.about-left h4, .about-menu h4 {
+	text-transform: capitalize;
+	margin: 20px 0;
+	font-size: 25px;
+	color: #333;
+}
+.about-left p{
+	margin-bottom: 20px;
+}
+.about-left a{
+	margin: 0;
+}
+
+.about-menu {
+	float: right;
+	width: 317px;
+}
+.about-menu ul{}
+.about-menu ul li {
+	background-image: url('../image/arrow.png');
+	background-repeat: no-repeat;
+	padding-right: ;
+	padding-left: 22px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	background-position: -7px 1px;
+	border-bottom: 1px solid #ddd;
+}
+.about-menu ul li:last-child{
+	border-bottom: 0;
+}
+
+.about-menu ul li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #333;
+	display: block;
+	transition: .3s;
+	font-size: 18px;
+}
+
+.about-menu ul li a:hover{
+color: tomato;
+font-size: 19px;
+}
+
+.footer{
+	background-color: teal;
+	margin-top: 50px;
+}
+.footer p{
+	text-align: center;
+	text-transform: capitalize;
+	padding: 15px;
+	font-size: 15px;
+	color: #fff;
+}
